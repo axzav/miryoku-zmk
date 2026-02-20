@@ -32,20 +32,4 @@ MIRYOKU_LAYER_LIST
 
 #include "miryoku_mousekeys.dtsi"
 
-#if defined (MIRYOKU_KLUDGE_THUMBCOMBOS)
-  #include "miryoku_kludge_thumbcombos.dtsi"
-#endif
-
-#if defined (MIRYOKU_KLUDGE_TOPROWCOMBOS)
-  #include "miryoku_kludge_toprowcombos.dtsi"
-#endif
-
-#if defined (MIRYOKU_KLUDGE_BOTTOMROWCOMBOS)
-  #include "miryoku_kludge_bottomrowcombos.dtsi"
-#endif
-
-#if defined (MIRYOKU_KLUDGE_TAPDELAY)
-  #include "miryoku_kludge_tapdelay.dtsi"
-#else
-  #include "miryoku_behaviors.dtsi"
-#endif
+#include "miryoku_behaviors.dtsi"

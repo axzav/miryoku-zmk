@@ -11,5 +11,3 @@ jobs:
       board: '["nice_nano_v2"]'
       shield: '["jorne_left","jorne_right"]'
       branches: '["zmkfirmware/zmk/v0.3-branch"]'
-      alphas: '["QWERTY"]'
-      kconfig: '["CONFIG_ZMK_POINTING=y"]'
