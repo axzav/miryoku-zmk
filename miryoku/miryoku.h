@@ -34,5 +34,3 @@
 #include "miryoku_mousekeys.h"
 
 #include "miryoku_behaviors.h"
-  
-#endif
